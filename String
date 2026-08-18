@@ -1,0 +1,12 @@
+public class Program{
+    public static void main(String[] args) {
+        String firstname = "Mohammed";
+        String lastname = "Abubakar";
+        String city = "Banana Island";
+        String state = "Lagos";
+        String phonenumber = "09066448268";
+
+        System.out.println(firstname+" "+lastname+" "+city+" "+state+" "+phonenumber);
+
+    }
+}
