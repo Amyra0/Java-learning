@@ -1,0 +1,12 @@
+public class Program{
+    public static void main(String[] args) {
+		boolean is4Gavailable=true;
+        boolean is5Gavailable=false;
+
+        if(is4Gavailable||is5Gavailable){
+            System.out.println("YOU CAN BROWSE THE INTERNET");
+        }else{
+            System.out.println("CAN'T USE THE INTERNET");
+        }
+	}
+}
