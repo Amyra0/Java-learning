@@ -1,0 +1,12 @@
+public class Program{
+    public static void main(String[] args) {
+	String[] names={"London","Paris","Summer","Winter","Paris"};
+    int count=0;
+    for(int i=0; i < names.length; i++){
+        if(names[i].equals("Paris")){
+            count++;
+        }
+    }
+    System.out.println("Paris appeared "+count+" times");
+	}
+}
