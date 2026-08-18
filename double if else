@@ -1,0 +1,17 @@
+public class Program{
+    public static void main(String[] args) {
+		double budget = 5000000;
+         String enginetype="Hybrid";
+         if (budget>=500000){
+
+            if (enginetype.equals("Electric")){
+                System.out.println("I WANT A TESLA");
+            }else if(enginetype.equals("Hybrid")){
+                System.out.println("I WANT A LAMBO");
+            }else{
+                System.out.println("I WANT A TOYOTA");
+            }
+
+            }
+ } }
+	
