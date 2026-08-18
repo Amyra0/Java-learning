@@ -1,0 +1,24 @@
+public class Program{
+    public static void main(String[] args) {
+		boolean ismaindooropened=false;
+        boolean isroom1opened=false;
+        boolean isroom2opened=true;
+
+        if (ismaindooropened){
+            if(isroom1opened){
+                System.out.println("WE ARE IN ROOM 1");
+            }else{
+                System.out.println("ROOM 1 IS CLOSED!!");
+            }
+
+            if(isroom2opened){
+                System.out.println("WE ARE IN ROOM 2!!!");
+            }else{
+                System.out.println("ROOM 2 IS CLOSED");
+            }
+
+        }else{
+            System.out.println("CANT ENTER THE HOUSE MAIN DOOR IS CLOSED!!!");
+        }
+	}
+}
