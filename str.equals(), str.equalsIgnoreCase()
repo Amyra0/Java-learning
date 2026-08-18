@@ -1,0 +1,7 @@
+public class Program{
+    public static void main(String[] args) {
+		String str="JAVA";
+        System.out.println(str.equals("Java"));
+        System.out.println(str.equalsIgnoreCase("java"));//compares two strings while ignoring uppercase and lowercase letters//
+	}
+}
