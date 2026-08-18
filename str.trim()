@@ -1,0 +1,7 @@
+public class Program{
+    public static void main(String[] args) {
+		String str="     Ja     va     ";
+        System.out.println(str);
+        System.out.println(str.trim());
+	}
+}
