@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Program{
+    public static void main(String[] args) {
+		Scanner sc = new scanner(System.in);
+        System.out.println("Please enter a number from 1 to 7");
+         int daynumber=sc.nextint();
+
+         if (daynumber>=1&&daynumber<=5){
+             System.out.println("it is a weekday");
+         }else if (daynumber>=6&&daynumber<=7){
+             System.out.println("it is a weekend");
+         }else{
+             System.out.println("INVALID");
+         }
+	}
+}
