@@ -1,0 +1,10 @@
+public class Program{
+    public static void main(String[] args) {
+		String firstname = "Amira";
+        String lastname = "Mohammed";
+        String email = "AmiraMohammed@gmail.com";
+
+        System.out.println(firstname+" "+lastname);
+        System.out.println(email);
+	}
+}
