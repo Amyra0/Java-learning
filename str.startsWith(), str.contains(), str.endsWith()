@@ -1,0 +1,8 @@
+public class Program{
+    public static void main(String[] args) {
+		String str = "Sky is blue";
+        System.out.println(str.startsWith("Sky"));
+        System.out.println(str.contains("is"));
+        System.out.println(str.endsWith("blue"));
+	}
+}

@@ -1,0 +1,15 @@
+public class Program{
+    public static void main(String[] args) {
+		boolean bringflower=true;
+        boolean bringchocolates=false;
+        boolean allmymistake=false;
+
+        if(bringflower||bringchocolates||allmymistake){
+            System.out.println("IM HAPPY");
+        }else{
+            System.out.println("IM SAD");
+        }
+
+        
+	}
+}

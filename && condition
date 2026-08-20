@@ -1,0 +1,11 @@
+public class demo {
+    public static void main(String[ ] args) {
+        int age = 42;
+        int money = 4000;
+        if (age > 26 && money < 6000){
+            System.out.println("You no get money!");
+        }
+
+        
+    }
+}
